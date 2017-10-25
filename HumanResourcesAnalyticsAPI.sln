@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRAnalytics.Domain", "HRAnalytics.Domain\HRAnalytics.Domain.csproj", "{FFEC548C-1998-4ACC-8BE7-0B7F55D0F5AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRAnalytics.Web", "HRAnalytics.Web\HRAnalytics.Web.csproj", "{A0A86990-4A94-4A20-A054-30552B9623E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRAnalytics.Data", "HRAnalytics.Data\HRAnalytics.Data.csproj", "{1027A9F4-22B5-42BA-8122-D48156177453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFEC548C-1998-4ACC-8BE7-0B7F55D0F5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEC548C-1998-4ACC-8BE7-0B7F55D0F5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEC548C-1998-4ACC-8BE7-0B7F55D0F5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEC548C-1998-4ACC-8BE7-0B7F55D0F5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A86990-4A94-4A20-A054-30552B9623E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A86990-4A94-4A20-A054-30552B9623E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A86990-4A94-4A20-A054-30552B9623E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A86990-4A94-4A20-A054-30552B9623E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1027A9F4-22B5-42BA-8122-D48156177453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1027A9F4-22B5-42BA-8122-D48156177453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1027A9F4-22B5-42BA-8122-D48156177453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1027A9F4-22B5-42BA-8122-D48156177453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

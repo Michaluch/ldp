@@ -1,0 +1,9 @@
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp1.1\HRAnalytics.Data.deps.json
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp1.1\HRAnalytics.Data.dll
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp1.1\HRAnalytics.Data.pdb
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp1.1\HRAnalytics.Domain.dll
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp1.1\HRAnalytics.Domain.pdb
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp1.1\HRAnalytics.Data.csprojResolveAssemblyReference.cache
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp1.1\HRAnalytics.Data.AssemblyInfo.cs
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp1.1\HRAnalytics.Data.dll
+c:\users\ykoshm\documents\visual studio 2017\Projects\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp1.1\HRAnalytics.Data.pdb

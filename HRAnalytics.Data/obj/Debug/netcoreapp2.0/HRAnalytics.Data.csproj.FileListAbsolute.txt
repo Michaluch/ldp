@@ -1,0 +1,24 @@
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.dll
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.csprojResolveAssemblyReference.cache
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.csproj.CoreCompileInputs.cache
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.AssemblyInfoInputs.cache
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.AssemblyInfo.cs
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Data.deps.json
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Data.dll
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Data.pdb
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.pdb
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.dll
+C:\Users\ishevt\Desktop\HumanResourcesAnalyticsAPI\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.pdb
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Data.deps.json
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.csprojResolveAssemblyReference.cache
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.AssemblyInfo.cs
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.dll
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.pdb
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Data.dll
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Data.pdb
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.dll
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.pdb
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.csproj.CoreCompileInputs.cache
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\obj\Debug\netcoreapp2.0\HRAnalytics.Data.AssemblyInfoInputs.cache
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Data\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Configuration.Abstractions.xml
