@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj",
       "projectName": "HRAnalytics.Domain",
-      "projectPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj",
+      "projectPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj",
       "packagesPath": "C:\\Users\\ykoshm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Domain\\obj\\",
+      "outputPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

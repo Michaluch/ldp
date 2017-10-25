@@ -3590,11 +3590,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Data\\HRAnalytics.Data.csproj",
+      "projectUniqueName": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Data\\HRAnalytics.Data.csproj",
       "projectName": "HRAnalytics.Data",
-      "projectPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Data\\HRAnalytics.Data.csproj",
+      "projectPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Data\\HRAnalytics.Data.csproj",
       "packagesPath": "C:\\Users\\ykoshm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Data\\obj\\",
+      "outputPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3615,8 +3615,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj": {
-              "projectPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj"
+            "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj": {
+              "projectPath": "C:\\Users\\ykoshm\\Documents\\Visual Studio 2017\\Projects\\HumanResourcesAnalyticsAPI v2\\ldp\\HumanResourcesAnalyticsAPI\\HRAnalytics.Domain\\HRAnalytics.Domain.csproj"
             }
           }
         }

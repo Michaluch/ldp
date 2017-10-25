@@ -14,3 +14,12 @@ C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI
 C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.pdb
 C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.csproj.CoreCompileInputs.cache
 C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.AssemblyInfoInputs.cache
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.deps.json
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.dll
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\bin\Debug\netcoreapp2.0\HRAnalytics.Domain.pdb
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.AssemblyInfoInputs.cache
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.AssemblyInfo.cs
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.dll
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.pdb
+C:\Users\ykoshm\Documents\Visual Studio 2017\Projects\HumanResourcesAnalyticsAPI v2\ldp\HumanResourcesAnalyticsAPI\HRAnalytics.Domain\obj\Debug\netcoreapp2.0\HRAnalytics.Domain.csprojResolveAssemblyReference.cache

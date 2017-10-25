@@ -6,8 +6,8 @@ using System.Net.Http.Headers;
 using System.Collections.Generic;
 using System.Globalization;
 using Newtonsoft.Json;
-using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json.Linq;
+using Microsoft.Extensions.Configuration;
 
 namespace HRAnalytics.Data.Services
 {

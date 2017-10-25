@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using HRAnalytics.Domain.Models;
 using HRAnalytics.Domain.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HRAnalytics.Web.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(Policy = "Member")]
     public class PredictionDismissalController : Controller
     {
         private readonly IPreditionService _predictionService;
