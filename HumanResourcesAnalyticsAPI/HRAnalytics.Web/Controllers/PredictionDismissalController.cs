@@ -2,9 +2,11 @@
 using HRAnalytics.Domain.Models;
 using HRAnalytics.Domain.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 
 namespace HRAnalytics.Web.Controllers
 {
+    [EnableCors("HAPolicy")]
     [Route("api/[controller]")]
     [Authorize(Policy = "Member")]
     public class PredictionDismissalController : Controller

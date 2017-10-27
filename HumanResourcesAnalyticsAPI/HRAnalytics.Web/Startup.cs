@@ -47,6 +47,13 @@ namespace HRAnalytics.Web
             services.AddSingleton<ISatisfactionService, SatisfactionService>();
             services.AddSingleton<IConfiguration>(Configuration);
 
+            services.AddCors(o => o.AddPolicy("HAPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                     .AddJwtBearer(options => {
                         options.TokenValidationParameters = new TokenValidationParameters
@@ -88,6 +95,7 @@ namespace HRAnalytics.Web
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
+            app.UseCors("HAPolicy");
 
             app.UseAuthentication();
             app.UseSwagger();
