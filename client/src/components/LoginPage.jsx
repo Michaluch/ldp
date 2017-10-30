@@ -2,19 +2,22 @@ import React, { Component } from 'react';
 import qs from 'qs';
 import { Row, Col, Button, Input } from 'react-materialize';
 import xhrRequest from '../helpers/xhrRequest';
+import Header from './Header';
 
 class LoginPage extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {username: "",
-                      pass: "",
-                      authToken: "" 
-        };
-        this.handleSubmit = this.handleSubmit.bind(this);
-        this.handleChange = this.handleChange.bind(this);
+    state = {
+      username: "", //"superuser",
+      pass: "", //"password_GOD",
+      authToken: ""
+    };
+
+    componentWillMount() {
+      if (sessionStorage.getItem('Authorization')) {
+        window.location.href = '/employees';
+      }
     }
 
-    handleChange(event) {
+    handleChange = (event) => {
         const target = event.target;
         const name = target.name;
 
@@ -23,9 +26,9 @@ class LoginPage extends Component {
                 [name]: target.value
             }
         );
-    }
+    };
 
-    handleSubmit(event) {
+    handleSubmit = (event) => {
         event.preventDefault();
 
         const credentials = {};
@@ -37,12 +40,14 @@ class LoginPage extends Component {
             .then((responce) => {
                 this.setState({authToken: responce.data});
                 sessionStorage.setItem('Authorization', responce.data);
+                window.location.href = '/employees';
             });
-    }
+    };
 
     render() {
         return (
             <Row>
+                <Header />
                 <Col s={3}> </Col>
                 <Col s={6}>
                     <form onSubmit={this.handleSubmit}>

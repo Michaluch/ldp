@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
 import { Row, Col, Table } from 'react-materialize';
 import EmployeeRow from './EmployeeRow';
-
+import Header from './Header';
 import employeesJSON from '../helpers/employeesJSON';
 
 
 class EmployeesList extends Component {
-    constructor(props) {
-        super(props);
-      
-    }
-
     render() {
 
         return (
             <Row>
+                <Header />
                 <Col s={1} />
                 <Col s={10}>
                     <Table hoverable={true} bordered={true} >
@@ -26,7 +22,7 @@ class EmployeesList extends Component {
 
                         <tbody>
                             {employeesJSON.map((item, index) =>
-                                <EmployeeRow key={index + 1} item={item} />
+                                <EmployeeRow key={index + 1} index={index} item={item} />
                             )}
                         </tbody>
                     </Table>
