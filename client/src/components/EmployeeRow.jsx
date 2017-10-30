@@ -26,7 +26,12 @@ class EmployeeRow extends Component {
     render() {
         return(
             <tr>
-                <td><a href='/user/:id'>{this.props.item.Name}</a></td>
+                <td>
+                  <Link to={`/employees/${this.props.index + 1}`}>
+                    {this.props.item.Name}
+                  </Link>
+                  </td>
+                  <td>{this.props.item.Position}</td>
                 <td>{this.state.dismiss}</td>
             </tr>
         );

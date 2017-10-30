@@ -4,6 +4,7 @@ import { Row } from 'react-materialize';
 import Header from './Header';
 import LoginPage from './LoginPage';
 import EmployeesList from './EmployeesList';
+import PredictionChart from './PredictionChart';
 
 class Layout extends Component {
     constructor(props) {
@@ -29,7 +30,7 @@ class Layout extends Component {
                 
                 <LoginPage />
                 <EmployeesList />
-                
+                <PredictionChart />
                 {this.props.children}
             </Row>
         );
