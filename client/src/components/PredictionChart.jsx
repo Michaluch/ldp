@@ -8,7 +8,7 @@ class PredictionChart extends Component {
         super(props);
         this.state = {
             options: {
-              title: 'Dismissal Prediction Percentage',
+              
               hAxis: { title: 'Months' },
               vAxis: { title: 'Percent', minValue: 0 },
               legend: 'none',
@@ -29,8 +29,6 @@ class PredictionChart extends Component {
 
         return (
             <Row >
-                <Col s={6} />
-                <Col s={6}>
             <Chart
                 chartType="AreaChart"
                 data={data}
@@ -40,7 +38,6 @@ class PredictionChart extends Component {
                 height="400px"
                 legend_toggle
             />
-            </Col>
             </Row>
         );
     }
