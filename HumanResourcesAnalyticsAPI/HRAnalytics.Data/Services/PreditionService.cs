@@ -76,11 +76,12 @@ namespace HRAnalytics.Data.Services
                     JObject jObj = JObject.Parse(result);
                     JToken IsPossible = jObj["Results"]["output1"][0]["Scored Labels"];
                     JToken score = jObj["Results"]["output1"][0]["Scored Probabilities"];
-
+                    var scoreValue = score.Value<double>();
                     return new PredictDismissalResponse()
                     {
                         IsPossible = IsPossible.Value<int>() == 1,
-                        Score = Math.Round(score.Value<double>() * 100, 2)
+
+                        Score = Math.Round(scoreValue > 0 ? scoreValue : scoreValue * 100, 2)
                     };
                 }
             }

@@ -1,47 +1,53 @@
 ﻿using HRAnalytics.Domain.Models;
+using HRAnalytics.Domain.Services.Utils.Satisfaction.PA;
+using HRAnalytics.Domain.Services.Utils.Satisfaction.Salary;
 
 namespace HRAnalytics.Domain.Services
 {
     public class SatisfactionService : ISatisfactionService
     {
-        private const int NOT_APPLICABLE = -1;
-        private const double LEVEL_OK = 70;
-        private const double LOW_LEVEL = 50;
-        private const double NOT_LOW_LEVEL = 65;
         private int COUNT = 3;
+        private IPerformanceAppraisal _performanceAppraisal;
+        private ISalary _salary;
 
         public double GetSatisfactionLevel(PredictDismissalRequest request)
         {
-            return (
-                GetLastPAScore(request.LastPerformanceAppraisalScore) + 
-                GetPrevPAScore(request.PreviousPerformanceAppraisalScore) +
-                GetSalaryScore(request.LastSalaryReviewPercentage)
-            ) / COUNT;
+            Init(request.Position);
+
+            var lastPAScore = _performanceAppraisal.GetLastSatisfactionScore(request.LastPerformanceAppraisalScore);
+            var prevPAScore = _performanceAppraisal.GetPrevSatisfactionScore(request.PreviousPerformanceAppraisalScore);
+            var timeSatisfactionPAScore = _performanceAppraisal.GetTimeSatisfactionScore(request.MonthsAfterLastPerformanceAppraisal, lastPAScore);
+            var salaryScore = _salary.GetSalaryScore(request);
+            var timeSalaryScore = _salary.GetTimeSalaryScore(request, salaryScore);
+
+            return ((lastPAScore * timeSatisfactionPAScore) + prevPAScore + (salaryScore * (salaryScore < 0 ? - timeSalaryScore : timeSalaryScore))) / COUNT;
         }
 
-        private double GetLastPAScore(double score)
+        private void Init(Enums.Position position)
         {
-            if (score == NOT_APPLICABLE)
+            switch(position)
             {
-                return LEVEL_OK;
-            } else
-            {
-                return score < 97 ? LOW_LEVEL : (score * 0.01) * LEVEL_OK;
+                case Enums.Position.SoftwareEngineerTrainee:
+                case Enums.Position.AbilitonJuniorSoftwareEngineer:
+                case Enums.Position.AbilitonPROJuniorSoftwareEngineer:
+                    _salary = new JuniorSalary();
+                    _performanceAppraisal = new JuniorPerformanceAppraisal();                    
+                    break;
+                case Enums.Position.AbilitonIntermediateSoftwareEngineer:
+                case Enums.Position.AbilitonPROIntermediateSoftwareEngineer:
+                    _salary = new MiddleSalary();
+                    _performanceAppraisal = new MiddlePerformanceAppraisal();
+                    break;
+                case Enums.Position.AbilitonSeniorSoftwareEngineer:
+                case Enums.Position.AbilitonPROSeniorSoftwareEngineer:
+                    _salary = new SeniorSalary();
+                    _performanceAppraisal = new SeniorPerformanceAppraisal();
+                    break;
+                default:
+                    _salary = new TechLeadSalary();
+                    _performanceAppraisal = new TechLeadPerformanceAppraisal();
+                    break;
             }
-        }
-
-        private double GetPrevPAScore(double score)
-        {
-            return score == NOT_APPLICABLE ? LEVEL_OK : (score * 0.01) * LEVEL_OK;
-        }
-
-        private double GetSalaryScore(double score)
-        {
-            if (score >= 0 && score < 5) return LOW_LEVEL;
-            if (score >= 5 && score < 25) return NOT_LOW_LEVEL;
-            if (score >= 25 && score < 50) return LEVEL_OK;
-
-            return score;
         }
     }
 }

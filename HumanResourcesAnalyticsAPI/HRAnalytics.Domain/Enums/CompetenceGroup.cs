@@ -18,6 +18,7 @@
         RareTechnologies = 13,
         Ruby = 14,
         SAR = 15,
-        WebUI = 16
+        WebUI = 16,
+        DevOps = 17
     }
 }

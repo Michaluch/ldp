@@ -22,5 +22,13 @@ namespace HRAnalytics.Domain.Models
 
         [NonSerialized]
         public double SatisfactionLevel;
+        [NonSerialized]
+        public string PositionLevel;
+        [NonSerialized]
+        public string LanguageLevel;
+        [NonSerialized]
+        public string SicknessHours;
+        [NonSerialized]
+        public string Left;
     }
 }
