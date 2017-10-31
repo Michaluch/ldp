@@ -31,7 +31,7 @@ class EmployeeRow extends Component {
                     {this.props.item.Name}
                   </Link>
                   </td>
-                <td>{this.props.item.Position}</td>
+                <td>{this.props.item.Position.split(/(?=[A-Z])/).join(' ')}</td>
                 <td>{this.state.dismiss}</td>
             </tr>
         );
